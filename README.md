@@ -26,9 +26,9 @@ Here is the file structure:
 
 After the configurations and downloaded terraform, we ran these commands:
 
-  $ terraform init
-  $ terraform plan --out plan.out
-  $ terraform apply "plan.out"
+  - $ terraform init
+  - $ terraform plan --out plan.out
+  - $ terraform apply "plan.out"
   
   - The first command ($ terraform init) will display => Terraform has been successfully initialized!
   - The second command ($ terraform plan --out plan.out) will create "plan.out" file that shows which instances will be created and their details.
