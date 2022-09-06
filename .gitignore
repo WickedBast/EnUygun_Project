@@ -1,0 +1,4 @@
+/.terraform
+/.terraform.lock.hcl
+/.terraform.tfstate.lock.info
+/enuygun-project-de0e34ed2334.json
