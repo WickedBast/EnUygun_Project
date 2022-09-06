@@ -22,8 +22,6 @@ Here is the file structure:
   - service_account.tf => Service Account (SA) file to create a ServiceAccount and bind it with permission required to access CloudSQL instances.
   - secret.tf => Secret file to create a key for ServiceAccount and create Kubernetes secrets for Wordpress and CloudSQL pods.
   - deployment.tf => Deployment file to create a deployment that will run Wordpress and cloudsql-proxy.
-  - loadbalancer.tf => Loadbalancer file to create an external Load Balancer using the load balancing service provided by GCP.
-  - output.tf => Output file to print the output.
 
 After the configurations and downloaded terraform, we ran these commands:
 
